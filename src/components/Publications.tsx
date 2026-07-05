@@ -3,7 +3,7 @@ import PdfViewer from './PdfViewer'
 
 export default function Publications() {
   return (
-    <Section id="publications" index="03" title="Publications">
+    <Section id="publications" index="04" title="[Publications]">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-48 items-stretch">
         <div className="border border-border-grey rounded-md overflow-hidden h-[75vh]">
           <PdfViewer src="/gen%20ai%20paper.pdf" />

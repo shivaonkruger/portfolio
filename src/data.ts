@@ -44,7 +44,7 @@ export const experience = [
 
 export const projects = [
   {
-    name: 'Brainly',
+    name: 'Brainly:',
     stack: ['ReactJS', 'MongoDB', 'TypeScript', 'Langchain', 'Docker', 'AWS (EC2)', 'CI/CD', 'Vercel'],
     github: 'https://github.com/shivaonkruger/Brainly-BE',
     bullets: [
@@ -54,7 +54,7 @@ export const projects = [
     ],
   },
   {
-    name: 'Legal Intelligence Agent',
+    name: 'Legal Intelligence Agent:',
     stack: ['LangGraph', 'Langsmith', 'BeautifulSoup4', 'Bautasaurus', 'Multi-stage Docker', 'Cloud Run'],
     github: 'https://github.com/shivaonkruger/Diagnostic-augmented-Agent',
     bullets: [
@@ -66,7 +66,7 @@ export const projects = [
     ],
   },
   {
-    name: 'CompIntel',
+    name: 'CompIntel:',
     stack: ['LangGraph', 'BeautifulSoup4', 'httpx', 'Docker'],
     github: 'https://github.com/shivaonkruger/Multi-agent-orchestrated-research-agent',
     bullets: [
@@ -76,7 +76,7 @@ export const projects = [
     ],
   },
   {
-    name: 'Prompt Compressor for LLMs',
+    name: 'Prompt Compressor for LLMs:',
     stack: ['PyTorch', 'HuggingFace Transformers', 'DistilBERT', 'Streamlit'],
     github: 'https://github.com/shivaonkruger/perplexity-using-DistillBERT',
     bullets: [
@@ -84,6 +84,66 @@ export const projects = [
       { label: '70% Token Reduction', detail: 'Reduced token count by up to 70% while outperforming GPT-2 perplexity baselines under aggressive compression, accelerating LLM inference and lowering API costs.' },
     ],
   },
+]
+
+export const skills = [
+  {
+    category: 'Frontend',
+    items: ['React', 'Tailwind', 'CSS', 'Shadcn', 'Motion', 'Aceternity'],
+  },
+  {
+    category: 'Backend',
+    items: [
+      'Node',
+      'Express',
+      'TypeScript',
+      'PostgreSQL',
+      'MongoDB',
+      'WebSockets',
+      'WebRTC',
+      'Prisma',
+      'Pub/Sub',
+      'Next.js',
+      'Bun',
+      'Turborepo',
+      'Redis',
+      'Supabase',
+    ],
+  },
+  {
+    category: 'AI Stack',
+    items: ['LangChain', 'LangGraph', 'LangSmith', 'RAG', 'ChromaDB', 'MongoDB Vector Indexing', 'FAISS'],
+  },
+  {
+    category: 'Neural Network Architectures',
+    items: [
+      'Transformers (Text)',
+      'Dense FFNs',
+      'RNNs',
+      'LSTMs',
+      'CNNs',
+      'LoRA',
+      'T5',
+      'IndicBART',
+      'PyTorch',
+      'DistilBERT',
+    ],
+  },
+  {
+    category: 'Cloud & DevOps',
+    items: ['AWS (EC2 & S3)', 'Docker', 'CI/CD', 'Vercel', 'Git', 'GitHub Actions'],
+  },
+]
+
+export const aiTools = ['Claude Code', 'Codex', 'Copilot']
+
+export const currentlyInto = [
+  { topic: 'Self-evolving agents', link: undefined },
+  {
+    topic: 'Cross-LLM / agent memory engines',
+    link: 'https://app.notion.com/p/The-context-watcher-the-next-big-thing-364dd43d0b2180358a4be0e5932a1774?source=copy_link',
+  },
+  { topic: 'Distributed systems', link: undefined },
 ]
 
 export const achievements = [

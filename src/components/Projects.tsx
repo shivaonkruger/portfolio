@@ -3,7 +3,7 @@ import { projects } from '../data'
 
 export default function Projects() {
   return (
-    <Section id="projects" index="02" title="Projects">
+    <Section id="projects" index="02" title="[Projects]">
       <div className="flex flex-col gap-80">
         {projects.map((project) => (
           <article key={project.name} className="grid grid-cols-1 md:grid-cols-[280px_1fr] gap-32 md:gap-48">

@@ -3,7 +3,7 @@ import { experience } from '../data'
 
 export default function Experience() {
   return (
-    <Section id="experience" index="01" title="Experience">
+    <Section id="experience" index="01" title="[Experience]">
       {experience.map((job) => (
         <div key={job.company} className="mb-64 last:mb-0">
           <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-8 mb-32">

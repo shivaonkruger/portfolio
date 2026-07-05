@@ -3,7 +3,7 @@ import { achievements, profile } from '../data'
 
 export default function Achievements() {
   return (
-    <Section id="achievements" index="04" title="Achievements">
+    <Section id="achievements" index="05" title="[Achievements]">
       <div className="flex flex-col gap-48 mb-64">
         {achievements.map((item) => (
           <div key={item.title} className="grid grid-cols-1 sm:grid-cols-[1fr_2fr] gap-16 sm:gap-40">

@@ -1,12 +1,12 @@
-import { profile } from '../data'
+import { profile, aiTools } from '../data'
 
 export default function Contact() {
   return (
     <footer id="contact" className="border-t border-border-grey">
       <div className="w-full px-24 sm:px-48 lg:px-64 py-96">
         <div className="flex items-baseline gap-16 mb-48">
-          <span className="font-mono text-label-sm text-muted-text">05</span>
-          <h2 className="text-display-lg">Contact</h2>
+          <span className="font-mono text-label-sm text-muted-text">07</span>
+          <h2 className="text-display-lg">[Contact]</h2>
         </div>
         <a
           href={`mailto:${profile.email}`}
@@ -23,7 +23,8 @@ export default function Contact() {
           </div>
         </div>
         <p className="text-caption-xs text-muted-text mt-64">
-          © {new Date().getFullYear()} {profile.name}. Built with React & Tailwind.
+          © {new Date().getFullYear()} {profile.name}. Built with React & Tailwind — assisted by{' '}
+          {aiTools.join(', ')}.
         </p>
       </div>
     </footer>

@@ -31,7 +31,7 @@ export default function Nav() {
           href="https://cal.com/shiva-gupta-pvzpkn/15min"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-label-lg uppercase bg-foreground-black text-surface-white px-20 py-10 hover:bg-foreground-black/80 transition-colors"
+          className="text-label-lg uppercase bg-foreground-black text-surface-white px-20 py-10 hover:bg-foreground-black/80 transition-colors animate-pulse"
         >
           Say Hello
         </a>
