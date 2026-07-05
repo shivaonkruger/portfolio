@@ -7,7 +7,16 @@ export default function Experience() {
       {experience.map((job) => (
         <div key={job.company} className="mb-64 last:mb-0">
           <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-8 mb-32">
-            <h3 className="text-heading-sm">{job.company}</h3>
+            <h3 className="text-heading-sm">
+              <a
+                href={job.companyUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-muted-text transition-colors"
+              >
+                {job.company}
+              </a>
+            </h3>
             <span className="text-label-lg uppercase text-muted-text">{job.location}</span>
           </div>
           <div className="flex flex-col gap-48">

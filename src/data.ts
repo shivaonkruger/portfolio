@@ -19,6 +19,7 @@ export const profile = {
 export const experience = [
   {
     company: 'Reliqus Consulting',
+    companyUrl: 'https://reliqus.com/',
     location: 'New Delhi, India',
     roles: [
       {
@@ -45,7 +46,7 @@ export const projects = [
   {
     name: 'Brainly',
     stack: ['ReactJS', 'MongoDB', 'TypeScript', 'Langchain', 'Docker', 'AWS (EC2)', 'CI/CD', 'Vercel'],
-    github: '#',
+    github: 'https://github.com/shivaonkruger/Brainly-BE',
     bullets: [
       { label: 'Smart Search Engine for Notes', detail: 'Built a platform that lets users search and retrieve digital notes based on semantic meaning rather than exact keywords, using Langchain and MongoDB vector indexing.' },
       { label: 'Automated Launch & Update Process', detail: 'Set up a system that automatically builds, tests, and deploys the app on every change, eliminating downtime, using AWS EC2 and GitHub Actions.' },
@@ -55,7 +56,7 @@ export const projects = [
   {
     name: 'Legal Intelligence Agent',
     stack: ['LangGraph', 'Langsmith', 'BeautifulSoup4', 'Bautasaurus', 'Multi-stage Docker', 'Cloud Run'],
-    github: '#',
+    github: 'https://github.com/shivaonkruger/Diagnostic-augmented-Agent',
     bullets: [
       { label: 'Self-Diagnostic Multi-Agent Orchestration', detail: 'Built smart legal document analysis that automatically detects its own errors during research, diagnoses failures, retries a different approach, and gracefully aborts when no solution exists — using LangGraph and BeautifulSoup4.' },
       { label: 'Centralized ToolExecutor Architecture', detail: 'Stripped complex error-handling out of core AI logic into a single centralized manager that runs all 6 legal tools and handles bugs behind the scenes, avoiding redundant per-agent architecture.' },
@@ -67,7 +68,7 @@ export const projects = [
   {
     name: 'CompIntel',
     stack: ['LangGraph', 'BeautifulSoup4', 'httpx', 'Docker'],
-    github: '#',
+    github: 'https://github.com/shivaonkruger/Multi-agent-orchestrated-research-agent',
     bullets: [
       { label: 'Automated Multi-Agent Research Team', detail: 'Created a system of specialized AI agents that automatically pull live market data, financials, and competitor info for any company by orchestrating workflows with LangGraph, Tavily, and Alpha Vantage.' },
       { label: 'Reliable, Bug-Free Execution', detail: 'Prevented the system from stalling in endless loops or crashing on bad data by locking down decision-making with Pydantic enums and OpenAI structured outputs.' },
@@ -77,7 +78,7 @@ export const projects = [
   {
     name: 'Prompt Compressor for LLMs',
     stack: ['PyTorch', 'HuggingFace Transformers', 'DistilBERT', 'Streamlit'],
-    github: '#',
+    github: 'https://github.com/shivaonkruger/perplexity-using-DistillBERT',
     bullets: [
       { label: 'Learned Prompt Compression Pipeline', detail: 'Built a pipeline to reduce LLM token usage by fine-tuning a DistilBERT-based token scoring model on 500 SQuAD 2.0 passages, scoring tokens using a "surprisal" method.' },
       { label: '70% Token Reduction', detail: 'Reduced token count by up to 70% while outperforming GPT-2 perplexity baselines under aggressive compression, accelerating LLM inference and lowering API costs.' },
