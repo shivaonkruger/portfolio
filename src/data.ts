@@ -4,9 +4,9 @@ export const profile = {
   phone: '+91 7877993048',
   email: 'shivafy02@gmail.com',
   links: {
-    linkedin: '#',
-    github: '#',
-    leetcode: '#',
+    linkedin: 'https://www.linkedin.com/in/shiva-gupta02/',
+    github: 'https://github.com/shivaonkruger',
+    leetcode: 'https://leetcode.com/u/shivafy02/',
   },
   education: {
     school: 'Manipal University Jaipur',

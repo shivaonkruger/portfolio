@@ -1,15 +1,16 @@
 const links = [
   { label: 'Work', href: '#projects' },
   { label: 'Experience', href: '#experience' },
+  { label: 'Publications', href: '#publications' },
   { label: 'Achievements', href: '#achievements' },
   { label: 'Contact', href: '#contact' },
 ]
 
 export default function Nav() {
   return (
-    <header className="fixed top-16 inset-x-0 z-50 px-16 sm:px-24">
+    <header className="fixed top-0 inset-x-0 z-50 w-full">
       <nav
-        className="max-w-content mx-auto flex items-center justify-between gap-24 rounded-2xl border border-white/60 bg-white/50 px-24 py-16 shadow-[0_8px_30px_rgba(0,0,0,0.06)] backdrop-blur-xl backdrop-saturate-150 supports-[backdrop-filter]:bg-white/40"
+        className="w-full flex items-center justify-between gap-24 border-b border-white/60 bg-white/50 px-24 sm:px-48 lg:px-64 py-16 shadow-[0_8px_30px_rgba(0,0,0,0.06)] backdrop-blur-xl backdrop-saturate-150 supports-[backdrop-filter]:bg-white/40"
       >
         <a href="#top" className="font-mono text-body-base tracking-tight">
           [S.G.]

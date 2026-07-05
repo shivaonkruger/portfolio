@@ -5,7 +5,7 @@ export default function Contact() {
     <footer id="contact" className="border-t border-border-grey">
       <div className="w-full px-24 sm:px-48 lg:px-64 py-96">
         <div className="flex items-baseline gap-16 mb-48">
-          <span className="font-mono text-label-sm text-muted-text">04</span>
+          <span className="font-mono text-label-sm text-muted-text">05</span>
           <h2 className="text-display-lg">Contact</h2>
         </div>
         <a
