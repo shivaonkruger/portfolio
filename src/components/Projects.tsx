@@ -21,6 +21,8 @@ export default function Projects() {
               </div>
               <a
                 href={project.github}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-block text-label-lg uppercase border-b border-foreground-black hover:text-muted-text hover:border-muted-text transition-colors"
               >
                 View on GitHub ↗

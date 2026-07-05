@@ -28,7 +28,9 @@ export default function Nav() {
           ))}
         </ul>
         <a
-          href="mailto:shivafy02@gmail.com"
+          href="https://cal.com/shiva-gupta-pvzpkn/15min"
+          target="_blank"
+          rel="noopener noreferrer"
           className="text-label-lg uppercase rounded-full bg-foreground-black text-surface-white px-20 py-10 hover:bg-foreground-black/80 transition-colors"
         >
           Say Hello

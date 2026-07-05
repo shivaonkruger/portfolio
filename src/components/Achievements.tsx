@@ -15,6 +15,8 @@ export default function Achievements() {
               <p className="text-body-base text-muted-text">{item.detail}</p>
               <a
                 href={item.link}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-block mt-16 text-label-lg uppercase border-b border-foreground-black hover:text-muted-text hover:border-muted-text transition-colors"
               >
                 Live Website ↗

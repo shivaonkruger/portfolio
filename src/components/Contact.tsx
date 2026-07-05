@@ -17,9 +17,9 @@ export default function Contact() {
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-24 border-t border-border-grey pt-32">
           <p className="font-mono text-body-base text-muted-text">{profile.phone}</p>
           <div className="flex gap-24 font-mono text-label-lg uppercase">
-            <a href={profile.links.github} className="hover:text-muted-text transition-colors">GitHub</a>
-            <a href={profile.links.linkedin} className="hover:text-muted-text transition-colors">LinkedIn</a>
-            <a href={profile.links.leetcode} className="hover:text-muted-text transition-colors">LeetCode</a>
+            <a href={profile.links.github} target="_blank" rel="noopener noreferrer" className="hover:text-muted-text transition-colors">GitHub</a>
+            <a href={profile.links.linkedin} target="_blank" rel="noopener noreferrer" className="hover:text-muted-text transition-colors">LinkedIn</a>
+            <a href={profile.links.leetcode} target="_blank" rel="noopener noreferrer" className="hover:text-muted-text transition-colors">LeetCode</a>
           </div>
         </div>
         <p className="text-caption-xs text-muted-text mt-64">
