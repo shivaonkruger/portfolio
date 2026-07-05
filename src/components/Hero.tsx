@@ -73,7 +73,7 @@ export default function Hero() {
           <br />
           -Sometimes it is the people no one can imagine anything of who do the things no one can imagine.    [~Alan Turing]
           <br />          
-            -You could always be trying to hard to make sense of thing but you can only connect dots looking backwards.   [~Steve Jobs]
+            -You could always be trying hard to make sense of thing but you can only connect dots looking backwards.   [~Steve Jobs]
         </p>
         <div className="flex gap-24 font-mono text-label-lg uppercase">
           <a href={profile.links.github} target="_blank" rel="noopener noreferrer" className="hover:text-muted-text transition-colors">GitHub</a>
