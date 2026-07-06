@@ -7,7 +7,6 @@ import Publications from './components/Publications'
 import Achievements from './components/Achievements'
 import CurrentlyInto from './components/CurrentlyInto'
 import Contact from './components/Contact'
-
 export default function App() {
   return (
     <div className="min-h-screen">

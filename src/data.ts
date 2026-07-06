@@ -1,6 +1,6 @@
 export const profile = {
   name: 'Shiva Gupta',
-  role: 'Full Stack Developer / AI Systems Engineer',
+  role: 'Trying to be an engineer who likes thinking systems',
   phone: '+91 7877993048',
   email: 'shivafy02@gmail.com',
   links: {
