@@ -19,3 +19,17 @@
     @apply bg-foreground-black text-surface-white;
   }
 }
+
+@keyframes cami-marquee {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+.cami-marquee-track {
+  animation: cami-marquee 200s linear infinite;
+  will-change: transform;
+}
